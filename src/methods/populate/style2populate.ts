@@ -1,7 +1,7 @@
-import {Style1Props} from "@/types/styles";
+import {Style2Props} from "@/types/styles";
 
-//populate function for style 1
-export default function style1populate(props: Style1Props): string {
+//populate function for style 2
+export default function style2populate(props: Style2Props): string {
 
     // COPY AND PASTED FROM THE POPULATE.PY FILE
     return `<td id="page-2-column-1">
@@ -26,20 +26,8 @@ export default function style1populate(props: Style1Props): string {
         <div class="sep"></div>
         <div class="pyramidDeck" style="font-family: Roboto-M; font-size: 16px; line-height: 21px;">
             <div style="letter-spacing: 2px;">${props.subtitle3[0]}</div>
-            <div style="letter-spacing: 2px;">${props.subtitle3[2]}</div>
+            <div style="letter-spacing: 2px;">${props.subtitle3[1]}</div>
             <div>${props.subtitle3[2]}</div>
-        </div>
-        <div class="sep"></div>
-        <div class="crossLineFlush" style="font-family: Roboto-M; font-size: 16px; line-height: 21px; text-transform: uppercase;">
-            <div style="letter-spacing: 2px;">
-                ${props.subtitle4}
-            </div>
-        </div>
-        <div class="sep"></div>
-        <div class="pyramidDeck" style="font-family: Roboto-M; font-size: 15px; line-height: 21px;">
-            <div style="letter-spacing: 2px;">${props.subtitle5[0]}</div>
-            <div style="letter-spacing: 2px;">${props.subtitle5[1]}</div>
-            <div>${props.subtitle5[2]}</div>
         </div>
         <div class="sep"></div>
         <p>${props.content}</p>
