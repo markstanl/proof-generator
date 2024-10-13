@@ -1,0 +1,28 @@
+import {Style3Props} from "@/types/styles";
+
+//populate function for style 3
+export default function style3populate(props: Style3Props): string {
+
+    // COPY AND PASTED FROM THE POPULATE.PY FILE
+    return `<td id="page-2-column-1">
+
+    <div class="news FPT">
+        <table class="box" align="center">
+            <tbody><tr>
+                <td class="boxNews">
+                    <div class="dropLine" style="font-family: Gentium-IB; font-size: 19px; line-height: 21px;">
+                        <div>${props.title[0]}</div>
+                        <div>${props.title[1]}</div>
+                    </div>
+                    <div class="ssep"></div>
+                    <p>${props.content}</p>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+</td>
+        <td id="page-2-column-2"></td>
+        <td id="page-2-column-3"></td>
+        <td id="page-2-column-4"></td>
+        <td id="page-2-column-5"></td>`
+}

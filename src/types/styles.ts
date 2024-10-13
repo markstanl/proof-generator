@@ -31,3 +31,36 @@ export type Style4Props = {
     title: [string, string],
     content: string
 };
+
+// Style 5 Props
+export type Style5Props = {
+    title: [string, string],
+    subtitle1: [string, string, string, string],
+    content: string
+};
+
+// Style 6 Props
+export type Style6Props = {
+    title: [string, string],
+    subtitle1: [string, string, string],
+    content: string
+};
+
+
+// Style 7 Props
+export type Style7Props = {
+    title: [string, string],
+    subtitle1: [string, string, string],
+    subtitle2: string,
+    subtitle3: [string, string, string],
+    content: string
+};
+
+
+// Style 8 Props
+export type Style8Props = {
+    title: [string, string],
+    subtitle1: string,
+    content: string
+};
+
