@@ -9,6 +9,7 @@ export type Style1Props = {
     subtitle4: string,
     subtitle5: [string, string, string],
     content: string
+    [key: string]: string | [string, string, string]; // Index signature
 };
 
 // Style 2 Props
